@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+				Killer Sudoku Helper
+		</title>
+		<link rel="stylesheet" href="/Content/Site.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+		<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	</head>
+	<body>
+		<div data-role="page" data-theme="b">
+			<div data-role="header">
+				<h1>Killer Sudoku Helper</h1>
+			</div>
+			<div data-role="content">	
+				<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+			</div>
+		</div>
+	</body>
+</html>
